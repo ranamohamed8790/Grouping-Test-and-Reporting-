@@ -20,7 +20,7 @@ export default defineConfig({
     ["allure-playwright", { outputFolder: "allure-results" }],
   ],
   use: {
-    baseURL: process.env.BASE_URL ?? "https://rahulshettyacademy.com/client/",
+    baseURL: process.env.BASE_URL || "https://rahulshettyacademy.com/client/",
     screenshot: "on",
     trace: "on-first-retry",
   },

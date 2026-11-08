@@ -109,12 +109,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6584,
+                      "duration": 10074,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-08T21:53:48.126Z",
+                      "startTime": "2026-11-08T22:57:33.797Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -169,12 +169,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 7823,
+                      "duration": 8001,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-08T21:53:48.107Z",
+                      "startTime": "2026-11-08T22:57:33.797Z",
                       "annotations": [
                         {
                           "type": "serial",
@@ -230,12 +230,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2911,
+                      "duration": 2706,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-08T21:53:56.038Z",
+                      "startTime": "2026-11-08T22:57:43.451Z",
                       "annotations": [
                         {
                           "type": "serial",
@@ -270,8 +270,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-08T21:53:47.725Z",
-    "duration": 11318.564,
+    "startTime": "2026-11-08T22:57:33.453Z",
+    "duration": 12795.547999999999,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,

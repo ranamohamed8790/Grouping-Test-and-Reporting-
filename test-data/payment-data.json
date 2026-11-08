@@ -1,0 +1,9 @@
+[
+  {
+    "testCaseName": "filling payment data",
+    "productName": "ADIDAS ORIGINAL",
+    "cardNumber": "12345678999999",
+    "cvv": "123",
+    "cardName": "Rana Ahmed"
+  }
+]

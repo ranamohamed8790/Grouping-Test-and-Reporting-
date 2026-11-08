@@ -1,0 +1,33 @@
+[
+  {
+    "testCaseTitle": "Enter correct username and password",
+    "username": "rana.mohamed8790@gmail.com",
+    "password": "Pass@1234",
+    "expectedMessage": ["Login Sucessfully"],
+    "expectedResult": "valid"
+  },
+
+  {
+    "testCaseTitle": "Enter correct username and wrong password",
+    "username": "rana.mohamed8790@gmail.com",
+    "password": "123@pss",
+    "expectedMessage": ["Incorrect email or password"],
+    "expectedResult": "inValid"
+  },
+
+  {
+    "testCaseTitle": "Enter wrong username and correct password",
+    "username": "rana@gmail.com",
+    "password": "123@pass",
+    "expectedMessage": ["Incorrect email or password"],
+    "expectedResult": "inValid"
+  },
+
+  {
+    "testCaseTitle": "Click on Login Button without Fill username nad password",
+    "username": "",
+    "password": "",
+    "expectedMessage": ["*Email is required", "*Password is required"],
+    "expectedResult": "inValid"
+  }
+]

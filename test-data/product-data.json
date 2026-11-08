@@ -1,0 +1,12 @@
+[
+  {
+    "testCaseName": "add valid product",
+    "productName": "ZARA COAT 3",
+    "validity": "valid"
+  },
+  {
+    "testCaseName": "add invalid product",
+    "productName": "NOT A REAL PRODUCT",
+    "validity": "invalid"
+  }
+]

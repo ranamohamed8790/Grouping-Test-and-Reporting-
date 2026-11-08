@@ -1,0 +1,8 @@
+{
+  "firstName": "rana",
+  "LastName": "rana",
+  "email": "rana${Date.now()}@test.com",
+  "password": "Pass@1234",
+  "confirmpass": "Pass@1234",
+  "phoneNumber": "01067497197"
+}

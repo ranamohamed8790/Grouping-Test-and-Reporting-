@@ -17,12 +17,14 @@ jobs:
         run: npm ci
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
+      # The repository secret named SECRETS holds the whole .env text.
+      # Write it to a real .env file so the config can read it, like on your PC.
+      - name: Create .env file from secret
+        run: printf '%s\n' "$ENV_FILE" > .env
+        env:
+          ENV_FILE: ${{ secrets.SECRETS }}
       - name: Run Playwright tests
         run: npx playwright test
-        env:
-          BASE_URL: ${{ secrets.BASE_URL }}
-          EMAIL: ${{ secrets.EMAIL }}
-          PASSWORD: ${{ secrets.PASSWORD }}
       - uses: actions/upload-artifact@v5
         if: ${{ !cancelled() }}
         with:

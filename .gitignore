@@ -12,3 +12,4 @@ allure-results/
 allure-report/
 playwright/.cache/
 .env
+results.json/results.json

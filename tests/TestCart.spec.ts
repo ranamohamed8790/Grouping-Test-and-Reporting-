@@ -7,7 +7,6 @@ import { paths } from "../config/paths";
 
 const email = process.env.EMAIL ?? "";
 const password = process.env.PASSWORD ?? "";
-
 const loginData = JSON.parse(
   fs.readFileSync(
     path.join(__dirname, "../test-data/login-data.json"),
@@ -85,7 +84,7 @@ test.describe("Cart", () => {
       },
     );
   }
-  
+
   for (const p of invalidProducts) {
     test(
       `Invalid product not listed: ${p.productName}`,
